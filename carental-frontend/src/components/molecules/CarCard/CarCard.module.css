@@ -1,0 +1,74 @@
+/* CarCard Molecule Styles */
+.carCard {
+  background-color: var(--color-background-primary);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-base);
+  border: 1px solid var(--color-neutral-200);
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.carCard:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.carImage {
+  height: 200px;
+  background: linear-gradient(135deg, var(--color-primary-100) 0%, var(--color-primary-200) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.imagePlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--spacing-4);
+}
+
+.carInfo {
+  padding: var(--spacing-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-4);
+}
+
+.carHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.carTitle {
+  margin: 0;
+}
+
+.priceInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.dailyPrice {
+  text-align: right;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--spacing-2);
+}
+
+.bookButton {
+  min-width: 120px;
+}

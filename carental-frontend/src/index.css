@@ -1,0 +1,23 @@
+/* A simple CSS reset and base styles */
+:root {
+  --primary-color: #2563eb; /* Blue-600 */
+  --primary-hover-color: #1d4ed8; /* Blue-700 */
+  --light-gray: #f9fafb; /* Gray-50 */
+  --text-dark: #1f2937; /* Gray-800 */
+  --text-medium: #4b5563; /* Gray-600 */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-gray);
+  color: var(--text-dark);
+}
+
+* {
+  box-sizing: border-box;
+}

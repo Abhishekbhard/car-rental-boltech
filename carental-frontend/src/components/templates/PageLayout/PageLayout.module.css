@@ -1,0 +1,67 @@
+/* PageLayout Template Styles */
+.pageLayout {
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--spacing-4);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 640px) {
+  .pageLayout {
+    padding: var(--spacing-6);
+  }
+}
+
+@media (min-width: 1024px) {
+  .pageLayout {
+    padding: var(--spacing-8);
+  }
+}
+
+/* Max width variants */
+.sm {
+  max-width: 32rem; /* 512px */
+}
+
+.md {
+  max-width: 48rem; /* 768px */
+}
+
+.lg {
+  max-width: 64rem; /* 1024px */
+}
+
+.xl {
+  max-width: 80rem; /* 1280px */
+}
+
+.full {
+  max-width: 100%;
+}
+
+/* Centered variant */
+.centered {
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--spacing-8);
+}
+
+.title {
+  margin-bottom: var(--spacing-2);
+  text-align: center;
+}
+
+.subtitle {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
