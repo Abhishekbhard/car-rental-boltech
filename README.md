@@ -65,6 +65,8 @@ Before running the project, ensure you have the following installed:
 
 ### Database Setup
 
+  Database setup is already implemented. Please skip steps 1 and 2.
+  
 1. **Start MongoDB service**
 
    ```bash
